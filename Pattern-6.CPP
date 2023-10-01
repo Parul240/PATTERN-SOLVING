@@ -1,0 +1,26 @@
+PATTERN -
+
+10 10 10 10 10 10
+10 10 10 10 10 10
+10 10 10 10 10 10
+10 10 10 10 10 10 
+
+
+CODE:- 
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    int row, col;
+    for(row = 1; row <= 4; row++)
+    {
+        for(col = 1; col <= 6; col++)
+        cout<<10<<" ";
+        cout<<endl;
+    }
+    return 0;
+}
