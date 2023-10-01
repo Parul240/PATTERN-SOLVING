@@ -4,7 +4,7 @@ Pattern - A B C
 
 
 
-..code:: cpp
+CODE:
 
 #include <iostream>
 
